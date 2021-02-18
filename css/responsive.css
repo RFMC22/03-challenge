@@ -1,0 +1,42 @@
+@media screen and (max-width:375px){
+  body{
+    background: var(--violet) url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  main{
+    overflow: none;
+  }
+  section{
+    flex-direction: column;
+    height: 500px;
+  }
+  #left{
+    width: 90%;
+    height: 380px;
+  }
+  #right{
+    width: 90%;
+    height: 270px;
+  }
+  #right h1{
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+  }
+  #right p{
+    width: 100%;
+    text-align: center;
+  }
+  #right button{
+    width: 70%;
+    outline: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  footer{
+    justify-content: center;
+    align-items: center;
+  }
+}
